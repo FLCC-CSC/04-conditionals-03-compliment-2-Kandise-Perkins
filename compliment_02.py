@@ -1,8 +1,9 @@
 # FILE NAME - compliment_02.py
 
-# NAME: 
-# DATE: 
-# BRIEF DESCRIPTION:  
+# NAME:Kandise Perkins
+# DATE: October 5, 2025
+# BRIEF DESCRIPTION: Using an if statement give the user a compliment.
+#       using if statements to prompt compliments.
 
 
 
@@ -14,7 +15,24 @@
 
 
 ########## ENTER YER CODE BELOW THIS LINE ##########
+def main():
+    compliment_02()
 
+def compliment_02():
+      #prompt   
+    question = input('Would you like a compliment? ')
+
+#if yes
+    if question == "yes":
+        print('You have wonderful eyes.')
+    else:
+        print('No compliment for you!')
+    
+#output
+    print("Thank you for playing.")
+
+
+main()
 
 
 
@@ -70,7 +88,7 @@ Thank you for playing.
 '''
 
 1. Did you struggle with this lab (YES/NO)?
-
+    NO
 
 
 
